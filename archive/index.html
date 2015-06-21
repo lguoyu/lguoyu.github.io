@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Archive
 ---
 
 <div class="posts">
@@ -13,7 +13,6 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 
   </div>
   {% endfor %}
