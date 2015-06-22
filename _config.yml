@@ -10,17 +10,18 @@ relative_permalinks: true
 title:            Zero Purpose
 tagline:          
 description:      ""
-url:              https://github.com/karloespiritu/blackdoc
+url:              http://lguoyu.github.io
 baseurl:          /
+excerpt_separator: <!--more-->
 
 author:
   name:           'Li Guoyu'
-  url:            https://twitter.com/karloespiritu
+  url:            http://lguoyu.github.io
 
-paginate:         5
+paginate:         20
 
 # Custom vars
 version:          1.0.0
 
 github:
-  repo:           https://github.com/karloespiritu/blackdoc
+  repo:           https://github.com/lguoyu/lguoyu.github.io
