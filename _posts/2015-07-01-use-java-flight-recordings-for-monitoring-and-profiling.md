@@ -17,12 +17,12 @@ Recording
 Record Locally
 ---
 
-It's pretty easy to start the flight recording locally by appending `-XX:+UnlockCommercialFeatures -XX:+FlightRecorder` to the command line when starting the application, and you can navigate to the process after JMC GUI is lauched.
+It's pretty easy to start the flight recording locally by appending `-XX:+UnlockCommercialFeatures -XX:+FlightRecorder` to the command line when starting the application, and you can navigate to the process after JMC GUI is lauched locally.
 
 Record Remotely
 ---
 
-The controlling of the remote recording is done by JMX, so beyond the JVM options specified above, we also need to open the JMX of the Java application by adding
+The controlling of the remote recording is done by JMX, so beyond the JVM options specified above, we also need to open the JMX of the Java application by adding to the command line when starting the application
 
 		-Dcom.sun.management.jmxremote 
 		-Dcom.sun.management.jmxremote.port=8899 
@@ -30,4 +30,4 @@ The controlling of the remote recording is done by JMX, so beyond the JVM option
 		-Dcom.sun.management.jmxremote.authenticate=false
 
 
-
+*It's straight forward to start the recording with JMC GUI following the wizard, note that if you are trying continous recording, DO NOT forget to dump the recording manually, otherwise you will lose the recording.*
